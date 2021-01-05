@@ -44,7 +44,7 @@ mtcars <- as.data.frame(mtcars)
 ```
 
 A primeira camada (layer) necessária para a criação de gráficos no `ggplot2` é dada pelo comando `ggplot(dados)`. Neste comando, estamos criando a `área` onde o gráfico será construído e, ainda, informando ao `ggplot2` qual o conjunto de dados que contém essas variáveis. 
-```{r, echo=TRUE}
+```{r, echo=TRUE, asis}
 ggplot(mtcars)
 ```
 
