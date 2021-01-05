@@ -9,20 +9,6 @@ output:
   pdf_document: default
   word_document: default
 ---
-<style>
-body {
-  text-align: justify;
-  font-size: 20pt;
-  }
-code.r{
-  font-size: 20px;
-}
-pre {
-  font-size: 20px
-}
-</style>
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
