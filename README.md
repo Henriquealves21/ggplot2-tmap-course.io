@@ -1,7 +1,7 @@
 # ggplot2-tmap-course.io
 -XII Programa de Verão DES-ICET/UFLA - 2021 - ggplot2 and tmap packages
 ---
-title: 'Um curso introdutório do pacote ggplot2 disponível no R'
+Um curso introdutório do pacote ggplot2 disponível no R
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -51,7 +51,7 @@ ggplot(mtcars)
 Note que aparece uma área (em cinza) onde será construído o gráfico. Essa área ainda não contém nenhum formato `geométrico` como, por exemplo, pontos, barras, caixas, etc. Esse é o próximo passo. 
 
 Precisamos informar ao `ggplot2` qual o formato geométrico `(geom\_tipo)` que queremos construir o nosso gráfico. Além disso, precisamos informar também ao ggplot2 qual a `estética` (aes(x,y,cores)) que queremos dar ao nosso gráfico: variável do eixo X, variável do eixo Y, cores, etc. Para isso, nós utilzamos o comando `geom\_tipo(aes(x,y,cores))`. Note também que a cada acréscimo de camada utilzamos o sinal `+`. 
-```{r, include=TRUE, echo=TRUE}
+```{r, out.width='25%', fig.align='center', fig.cap='...', echo=TRUE}
 ggplot(mtcars) +
   geom_point(mapping = aes(x= disp, y=mpg))
 ```
