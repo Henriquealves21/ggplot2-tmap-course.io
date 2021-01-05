@@ -441,7 +441,7 @@ O que preciso saber do pacote dplyr:
 Uma vez apresentado as funções do pacote `dplyr`, vamos agora apresentar os argumento dessas funções. O primeiro argumento é um `data frame`. Os argumentos subsequentes descrevem o que fazer com o data frame usando os nomes das variáveis sem aspas. Para exemplicar, vamos considerar o conjunto de dados `flights` disponível no pacote `nycflights13`. Esse  conjunto de dados trata de todos os voos diários da cidade de New York no ano de 2013.
 
 
-````{r, echo=TRUE}
+```{r, echo=TRUE}
 library(tidyverse)
 library(tibble)
 library(dplyr)
@@ -482,7 +482,7 @@ Antes de apresentarmos as funções precisamos conhecer alguns caracteres lógic
 As funções do pacote `dplyr`.
 
 
-````{r, echo=TRUE}
+```{r, echo=TRUE}
 filter(data, month == 1, dep_delay >= 1)
 arrange(data, month)
 select(data, year , day,  month, dep_delay)
