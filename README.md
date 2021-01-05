@@ -2,9 +2,6 @@ XII Programa de Verão DES-ICET/UFLA - 2021
 ---
 Um curso introdutório dos pacotes ggplot2 e tmap disponíveis no R
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## **Primeira parte**
 
