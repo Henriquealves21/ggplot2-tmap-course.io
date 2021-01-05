@@ -3,7 +3,7 @@ XII Programa de Verão DES-ICET/UFLA - 2021
 Um curso introdutório dos pacotes ggplot2 e tmap disponíveis no R
 ---
 
-## **Primeira parte**
+## **Primeira parte - ggplot2**
 
 
 ## Introdução
@@ -419,8 +419,6 @@ ggplot(mtcars, aes(x = as.factor(cyl))) +
 ![](man/figuras/fig20.png)<!-- -->
 
 Nossos gráficos já estão com uma boa qualidade para serem apresentados em alguma revista científica. 
-
-## **Segunda parte**
 
 ## Construindo gráficos a partir de um conjunto de dados original usando os pacotes ``tydeverse``, ``tibble`` e ``dplyr`` do R.
 
