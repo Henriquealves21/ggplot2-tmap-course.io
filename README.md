@@ -1,4 +1,3 @@
-# ggplot2-tmap-course.io
 -XII Programa de Verão DES-ICET/UFLA - 2021 - ggplot2 and tmap packages
 ---
 Um curso introdutório do pacote ggplot2 disponível no R
