@@ -2,12 +2,6 @@
 -XII Programa de Verão DES-ICET/UFLA - 2021 - ggplot2 and tmap packages
 ---
 title: 'Um curso introdutório do pacote ggplot2 disponível no R'
-author: "Henrique José de Paula Alves"
-date: "04 de fevereiro de 2020"
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -44,7 +38,7 @@ Abaixo apresentamos os sete elementos que envolvem a construção de gráficos n
 
 Vamos agora realizar essa construção passo a passo no R. Os dados devem ser um `data.frame`. Essa condição é obrigatória para o uso do ggplot2. Primeiramente vamos instalar e carregar o pacote `ggplot2`. Depois, vamos colocar o conjunto de dados `mtcars`, disponível no R, em `data.frame`. Feito isso, nós estamos em condições de iniciar a construção de gráficos no `ggplot2`.
 
-```{r mtcars, echo=TRUE}
+```{r mtcars, include=TRUE, echo=TRUE}
 library(ggplot2)
 mtcars <- as.data.frame(mtcars)
 ```
@@ -57,7 +51,7 @@ ggplot(mtcars)
 Note que aparece uma área (em cinza) onde será construído o gráfico. Essa área ainda não contém nenhum formato `geométrico` como, por exemplo, pontos, barras, caixas, etc. Esse é o próximo passo. 
 
 Precisamos informar ao `ggplot2` qual o formato geométrico `(geom\_tipo)` que queremos construir o nosso gráfico. Além disso, precisamos informar também ao ggplot2 qual a `estética` (aes(x,y,cores)) que queremos dar ao nosso gráfico: variável do eixo X, variável do eixo Y, cores, etc. Para isso, nós utilzamos o comando `geom\_tipo(aes(x,y,cores))`. Note também que a cada acréscimo de camada utilzamos o sinal `+`. 
-```{r, echo=TRUE}
+```{r, include=TRUE, echo=TRUE}
 ggplot(mtcars) +
   geom_point(mapping = aes(x= disp, y=mpg))
 ```
